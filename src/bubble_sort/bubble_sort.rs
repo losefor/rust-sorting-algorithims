@@ -24,8 +24,3 @@ fn swap(array: &mut [i32], index1: usize, index2: usize) {
     array[index2] = array[index1] - array[index2];
     array[index1] -= array[index2];
 }
-
-// 3 , 4
-// first = 3 + 4 = 7
-// second = 7 - 4 = 3
-// first = 7 - second = 4
